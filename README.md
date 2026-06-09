@@ -65,8 +65,8 @@ Every task accepts the same three input shapes — file, URL, or raw string — 
 fftext s notes.txt
 fftext s https://example.com/post
 fftext s "Paste a long block of text right here on the command line."
-cat notes.txt | fftext s            # read from stdin
-echo "quick note" | fftext c -      # "-" is stdin too, for any subcommand
+cat notes.txt | fftext s                               # read from stdin
+echo "clouds can weight more than a ton" | fftext c -  # "-" is stdin too, for any subcommand
 
 # Explain it like I'm ten
 fftext e paper.pdf.txt
